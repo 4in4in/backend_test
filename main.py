@@ -4,10 +4,6 @@ from flask import request
 from flask import jsonify
 
 
-# with open("test_questionnary.json", "r", encoding="utf-8", errors="ignore") as q:
-#     qq = json.load(q)
-# print(qq)
-
 app = Flask(__name__)
 
 
@@ -41,13 +37,6 @@ def dump_qustionnary_answers():
             return {"Error!": "Not anought data!"}
     return {"test": "dumped!"}
 
-@app.route("/api", methods=["POST"])
-def test():
-    return {"ret": "test"}
-
-@app.route("/", methods=["GET"])
-def callback():
-    return {"test requst": "test callback"}
 
 if __name__ == "__main__":
     app.run(host="localhost")
