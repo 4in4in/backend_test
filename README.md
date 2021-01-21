@@ -2,7 +2,7 @@
 
 ### Установка зависимостей:
 1. Установить [python](https://www.python.org/downloads/) 
-2. Скачать [репозиторий]() проекта
+2. Скачать [репозиторий](https://github.com/tolstoy92/backend_test) проекта
 3. В командной строке перейти в корневую папку проекта
 4. Установить зависимости из requirements.txt: `pip install -r requirements.txt`
 
